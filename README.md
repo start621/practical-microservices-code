@@ -51,10 +51,8 @@ A software developer reading list for learning more about micro service architec
 
 There are two main approaches to inter-process communication in a microservice architecture.
 
-1. One option is to a synchronous HTTP-based mechanism such as REST or SOAP
+1. Synchronous HTTP such as REST or SOAP
 
 2. An alternative to synchronous HTTP is an asynchronous message-based mechanism such as an AMQP-based message broker. This approach has a number of benefits. It decouples message producers from message consumers. The message broker will buffer messages until the consumer is able to process them. Producers are completely unaware of the consumers. The producer simply talks to the message broker and does not need to use a service discovery mechanism. Message-based communication also supports a variety of communication patterns including one-way requests and publish-subscribe. One downside of using messaging is needing a message broker, which is yet another moving part that adds to the complexity of the system
-
-
 
 * [Protocol Buffers](https://github.com/google/protobuf/)
