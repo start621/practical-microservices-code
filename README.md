@@ -20,7 +20,7 @@ A software developer reading list for learning more about micro service architec
 
 # Articles
 
-= [Martin Fowler Articles](http://martinfowler.com/articles/microservices.html)
++ [Martin Fowler Articles](http://martinfowler.com/articles/microservices.html)
 
 # Books
 
