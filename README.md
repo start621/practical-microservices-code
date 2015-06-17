@@ -18,6 +18,10 @@ A software developer reading list for learning more about micro service architec
 * [Migrating to Microservices - Adrian Cockcroft](http://www.infoq.com/presentations/migration-cloud-native)
 * [Microservices at Netflix](https://www.youtube.com/watch?v=LEcdWVfbHvc)
 
+# Articles
+
+= [Martin Fowler Articles](http://martinfowler.com/articles/microservices.html)
+
 # Books
 
 * [Antifragile: Things That Gain from Disorder](http://www.amazon.com/gp/product/0812979680)
