@@ -10,6 +10,7 @@ A software developer reading list for learning more about micro service architec
 
 # Videos
 
+* [InfoQ Videos](http://www.infoq.com/microservices/presentations)
 * [Microservices - Martin Fowler](https://www.youtube.com/watch?v=wgdBVIX9ifA)
 * [State of the Art in Microservices - Adrian Cockcroft](https://www.youtube.com/watch?v=nMTaS07i3jk)
 * [Deploying And Testing Microservices - Sam Newman](https://www.youtube.com/watch?v=FotoHYyY8Bo)
