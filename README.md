@@ -16,7 +16,9 @@ A software developer reading list for learning more about micro service architec
 
 + Docker
 
-A software developer reading list for learning more about micro service architecture
+## Monitoring
+
+## Logging
 
 ## Postel's Law
 
