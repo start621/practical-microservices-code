@@ -4,8 +4,11 @@ A software developer reading list for learning more about micro service architec
 
 ## Service Discovery
 
+Services typically need to call one another. In a monolithic application, services invoke one another through language-level method or procedure calls. In a traditional distributed system deployment, services run at fixed, well known locations (hosts and ports) and so can easily call one another using HTTP/REST or some RPC mechanism. However, a modern microservice-based application typically runs in a virtualized or containerized environments where the number of instances of a service and their locations changes dynamically.
+
 + [ZooKeeper](http://zookeeper.apache.org)
-+ [EtcD](https://github.com/coreos/etcd)
++ [etcd](https://github.com/coreos/etcd)
++ [Consol](https://www.consul.io)
 
 ## Service Communication
 
