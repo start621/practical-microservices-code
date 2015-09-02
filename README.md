@@ -1,14 +1,28 @@
 # Microservices Design
 
-Notes, resource and ideas from a recent BBC Microservices course.
+A software developer reading list for learning more about micro service architecture
+
+## Service Discovery
+
++ [ZooKeeper](http://zookeeper.apache.org)
++ [EtcD](https://github.com/coreos/etcd)
+
+## Service Communication
+
++ HTTP
++ Messaging (AMQP)
+
+## Deployment
+
++ Docker
 
 A software developer reading list for learning more about micro service architecture
 
-# Postel's Law
+## Postel's Law
 
 > Be liberal in what you accept, and conservative in what you send
 
-# Videos
+## Videos
 
 * [InfoQ Videos](http://www.infoq.com/microservices/presentations)
 * [Microservices - Martin Fowler](https://www.youtube.com/watch?v=wgdBVIX9ifA)
@@ -19,11 +33,11 @@ A software developer reading list for learning more about micro service architec
 * [Migrating to Microservices - Adrian Cockcroft](http://www.infoq.com/presentations/migration-cloud-native)
 * [Microservices at Netflix](https://www.youtube.com/watch?v=LEcdWVfbHvc)
 
-# Articles
+## Articles
 
 + [Martin Fowler Articles](http://martinfowler.com/articles/microservices.html)
 
-# Books
+## Books
 
 * [Antifragile: Things That Gain from Disorder](http://www.amazon.com/gp/product/0812979680)
 * [The Black Swan](http://www.amazon.com/The-Black-Swan-Improbable-Robustness/dp/081297381X)
@@ -31,24 +45,24 @@ A software developer reading list for learning more about micro service architec
 * [Building Micro Services - Sam Newman](http://www.amazon.co.uk/Building-Microservices-Sam-Newman/dp/1491950358)
 * [Antifragile Software - Russ Miles](https://leanpub.com/antifragilesoftware)
 
-# People
+## People
 
 * James Lewis
 * Sam Newman
 * Russ Miles
 * Martin Fowler
 
-# Architectural Patterns
+## Architectural Patterns
 
 * [API Gateway](http://microservices.io/patterns/apigateway.html)
 * [Bounded Context](http://martinfowler.com/bliki/BoundedContext.html)
 * [Circuit Breaker](http://martinfowler.com/bliki/CircuitBreaker.html)
 
-# Design Principles
+## Design Principles
 
 1. Do not worry about the size of services. Focus on which componnents "change together"
 
-# Event Transport  and Service Communication
+## Event Transport  and Service Communication
 
 There are two main approaches to inter-process communication in a microservice architecture.
 
