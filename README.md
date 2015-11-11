@@ -13,7 +13,12 @@ Services typically need to call one another. In a monolithic application, servic
 ## Service Communication
 
 + HTTP
-+ Messaging (AMQP)
++ AMQP
++ ZMQ
++ RabbitMQ
++ Protocol Buffers
++ Thrift
++ Avro
 
 ## Deployment
 
@@ -21,7 +26,10 @@ Services typically need to call one another. In a monolithic application, servic
 
 ## Monitoring
 
-## Logging
++ StatsD
++ Graphana
++ Graphite
++ Librato
 
 ## Postel's Law
 
