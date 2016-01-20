@@ -4,17 +4,9 @@ A book about microservices with a focus on real world examples
 
 ## Chapters
 
-* Service Communication
-  + RPC
-  + HTTP
-* Automation
-* Service Discovery
-* Wire Formats
-* Event Driven Systems
-  + CQRS
-  + AMQP
-* Handling Failure
-* Monitoring and Metrics
++ Intro
++ Service Discovery
++ Service Communication
 
 ## Sample Projects
 
