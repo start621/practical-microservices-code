@@ -2,7 +2,6 @@
 
 ## Why Service Discovery
 
-
 In a more traditional application architecture, services instances have fixed locations that rarely change. In a cloud based microservice architecture the number of instances changes dynamically and so it is no longer possible to rely on  instances being available.
 
 In order to make a request to a service we need to know the network location (IP address, port) of that service. In traditional architectures this isn't much of a problem
@@ -20,6 +19,8 @@ The client queries a service registry to fetch a list of available services inst
 A server side discovery pattern is where the client makes a request to a load balancer meaning the client no longer has to deal with the complexity of service discovery. 
 
 ## Service Registry
+
+A service registry is a bit like a phone book for your microservices. A service registers itself with the registry and then other services can ask the service registry about the location and availability of services.
 
 ### Self Registration
 
