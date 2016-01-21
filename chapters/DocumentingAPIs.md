@@ -9,3 +9,6 @@ In this chapter we'll look at some popular options for documenting microservices
 
 ## RAML
 
+## Conclusion
+
+I recommend auto generating all your documentation from a strict API definition language like Swagger or Raml.
