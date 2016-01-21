@@ -1,4 +1,4 @@
-# Event Driven Services
+# Events
 
 Very few systems are fully synchonmous. 
 
