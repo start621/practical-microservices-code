@@ -21,7 +21,7 @@ object UserDAO extends UserSQLParser {
       .executeInsert()
   }
 
-  def update(user: User): Boolean = {
+  def update(user: User): Boolean = withConnection { implicit c =>
     user.id match {
       case Some(uid) =>
         SQL("UPDATE Users SET firstName = {firstName}, lastName = {lastName}, email = {email}, phone = {phone} WHERE id = {id}")

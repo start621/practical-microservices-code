@@ -11,8 +11,15 @@ class Users extends Controller {
     Ok(Json.toJson(UserDAO.findAll()))
   }
 
-  def create = Action {
-   NotImplemented
+  def create = Action { request =>
+    request.body.asJson.map { json =>
+      json.asOpt[User] match {
+        case Some(user) =>
+          UserDAO.create(user)
+          Created
+        case None => BadRequest
+      }
+    } getOrElse BadRequest
   }
 
   def show(id: Long) = Action {
@@ -22,8 +29,15 @@ class Users extends Controller {
     }
   }
 
-  def update(id: Long) = Action {
-   NotImplemented
+  def update(id: Long) = Action { request =>
+    request.body.asJson.map { json =>
+      json.asOpt[User] match {
+        case Some(user) =>
+          UserDAO.update(user.copy(id = Some(id)))
+          Ok
+        case None => BadRequest
+      }
+    } getOrElse BadRequest
   }
 
   def delete(id: Long) = Action {
