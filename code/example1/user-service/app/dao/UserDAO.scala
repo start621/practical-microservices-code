@@ -1,7 +1,7 @@
 package dao
 
 import anorm._
-import domain.User
+import domain.models.User
 import play.api.Play.current
 import play.api.db.DB._
 

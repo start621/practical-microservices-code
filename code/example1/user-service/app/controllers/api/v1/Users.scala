@@ -1,7 +1,7 @@
 package controllers.api.v1
 
 import dao.UserDAO
-import domain.User
+import domain.models.User
 import play.api.mvc._
 import play.api.libs.json._
 

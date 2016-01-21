@@ -2,7 +2,7 @@ package dao
 
 import anorm.{~, RowParser}
 import anorm.SqlParser._
-import domain.User
+import domain.models.User
 
 trait UserSQLParser {
 
