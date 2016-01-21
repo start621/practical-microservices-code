@@ -1,5 +1,7 @@
 # Event Driven Services
 
+Very few systems are fully synchonmous. 
+
 Many tasks in a typical system might be things that should happen "in the background". Examples of these sorts of things are
 services sending SMS push notification, delivering email, processing complex data etc. In these cases it makes sense to 
 invoke these tasks asynchronmously using some kind of message queue. 
@@ -16,7 +18,7 @@ CustomerDeleted(id = 1)
 
 ## Popular Message Brokers
 
-There are many options when choosing a message broker for your microservice architecture but some of the more popular ones are Kafka, AMQP (RabbitMQ, MQLight)
+There are many options when choosing a message broker for your microservice architecture but some of the more popular ones are Kafka and AMQP (RabbitMQ, ActiveMQ, MQLight). I particularly like Kafaka for it's conceptual simplificity.  
 
 ## Common Patterns
 
