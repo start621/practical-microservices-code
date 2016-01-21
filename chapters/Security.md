@@ -4,10 +4,8 @@ With a large number of services that need to talk to each other, security become
 It can be one the of the trickiest things to get right. In this chapter we'll look at some common solutions to the problem
 of securing microservices.
 
-## JWT
-
 ## SAML
 
-## OAuth
+## JWT
 
-## Certificates
+## OAuth
