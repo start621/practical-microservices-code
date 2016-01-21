@@ -14,7 +14,14 @@ Client libraries
 
 Fire and forget 
 
-RPC with Rabbit MQ
+### Messaging RPC
+
+Although it's possible to RPC using messaging systems like Rabbit MQ, I'm not a great fan of this and would recommend avoiding it where possible. 
+
+How it works.
+
++ Correlation ID
++ Callback queue. 
 
 ## Transport Formats
 
