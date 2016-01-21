@@ -2,6 +2,11 @@
 
 > Microservices are not a free lunch. You trade code complexity for operational complexity.
 
+Success in building a microservice architecture depends on getting many elements right. These include continuous integration, testing, logging, request tracing, messaging, service registration and discovery, monitoring and much more. This book aims
+to walk you through how to build a microservice architecure from a practical, real world lens. 
+
+We will focus heavily on providing working code examples and projects in multiple languages to get a deeper overview of the tools and processes needed for a successful microservice based system. 
+
 ## The monolith
 
 ## Benefits of Microservices
