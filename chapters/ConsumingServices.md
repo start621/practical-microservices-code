@@ -12,7 +12,10 @@ take care of some of the grunt work involved in making requests to your service.
 ```scala
 val userService = new UserServiceClient
 
-val users: Future[Either[Failure, Success]] = userService.getAllUsers()
+userService.getAllUsers() map {
+  case Success(users) => println("Yay we found some users")
+  case Failure(e) => println(s"Call to user service failed because ${e.getMessage}")
+}
 ```
 
 + Finagle
