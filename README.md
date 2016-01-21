@@ -1,6 +1,8 @@
 # Practical Microservices
 
-A book about microservices with a focus on real world examples
+A book about microservices with a focus on real world examples. 
+
+Code examples are given in multiple languages (Scala, Java, Golang, Python, Ruby)
 
 ## Chapters
 
