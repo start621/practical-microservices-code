@@ -8,7 +8,7 @@ invoke these tasks asynchronmously using some kind of message queue.
 
 An event is simply something that happened in the past. Typically, but not always, it referes to some kind of stage change on an entity. Most people choose a naming strategy to indicate that something has happened in the system. For example
 
-```
+```scala
 CustomerDeleted(id = 1)
 ```
 
