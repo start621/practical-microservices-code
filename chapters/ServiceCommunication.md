@@ -16,7 +16,7 @@ Fire and forget
 
 ### Messaging RPC
 
-Although it's possible to RPC using messaging systems like Rabbit MQ, I'm not a great fan of this and would recommend avoiding it where possible. 
+Although it's possible to RPC using messaging systems like Rabbit MQ, I'm not a great fan of this and would recommend avoiding it where possible. HTTP tends to be a much easier and more natural fit for request/response patterns.
 
 How it works.
 
