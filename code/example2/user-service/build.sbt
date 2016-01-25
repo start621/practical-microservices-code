@@ -11,8 +11,8 @@ libraryDependencies ++= Seq(
   cache,
   ws,
   evolutions,
-  "com.typesafe.play" %% "anorm"         % "2.4.0",
-  "com.rabbitmq" % "amqp-client" % "3.6.0",
+  "com.typesafe.play" %% "anorm"       % "2.4.0",
+  "com.rabbitmq"       % "amqp-client" % "3.6.0",
   specs2 % Test
 )
 
