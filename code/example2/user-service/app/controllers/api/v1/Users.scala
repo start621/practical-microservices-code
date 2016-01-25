@@ -8,7 +8,8 @@ import play.api.libs.json._
 
 class Users extends Controller {
 
-  val messagingClient = new RabbitMQProducer("192.168.99.100", "user.service")
+  private val messagingClient = 
+    new RabbitMQProducer("192.168.99.100", "user.service")
 
   private def publishUserEvent(name: String, user: User) =
     messagingClient.publish(Event(name, Some(Json.stringify(Json.toJson(user)))))
