@@ -23,9 +23,8 @@ When you created, update or delete a user an event will be dispatched to RabbitM
 
 ```json
 
-{  "name": "user.created",
+{  "event": "user.created",
    "payload": "{\"firstName\":\"Bob\",\"lastName\":\"Jones\",\"email\":\"bob@gmail.com\",\"phone\":\"1234\"}",
-   "timestamp": 1453750026869
- }
+   "timestamp": 1453750026869 }
 ```
 
