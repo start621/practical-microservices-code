@@ -53,7 +53,7 @@ class Users extends Controller {
       case Some(user) =>
         UserDAO.delete(id)
         publishUserEvent("user.deleted", user)
-        Accepted
+        Ok(Json.toJson(user))
       case None =>
         NotFound
     }
