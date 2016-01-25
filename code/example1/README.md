@@ -1,8 +1,6 @@
-# Example 1
+# Example 1 (User Service)
 
-Our first project will look at creating a simple User service to manager user information and an activity service that audits
-all events in our system. 
-
+Our first project will look at creating a simple user management service that stores information about users in a system.
 
 ## The API
 
