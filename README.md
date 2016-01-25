@@ -1,16 +1,7 @@
 # Practical Microservices
 
-A book about microservices with a focus on real world examples. 
+A "hands on" book about microservices with a focus on providing simple, working examples.
 
-Code examples are given in multiple languages (Scala, Java, Golang, Python, Ruby)
+Code examples are given in multiple languages (Scala, JavaScript, Java, Golang, Ruby etc)
 
-## Chapters
-
-+ Intro
-+ Service Discovery
-+ Service Communication
-
-## Sample Projects
-
-+ User Service
-+ Bank Account Service
+If you're interested you can sign up for the book here https://leanpub.com/practicalmicroservices
