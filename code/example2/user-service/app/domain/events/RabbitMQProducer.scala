@@ -2,8 +2,9 @@ package domain.events
 
 import com.rabbitmq.client.{Connection, ConnectionFactory}
 import play.api.libs.json._
+import java.util.Date
 
-case class Event(name: String, payload: Option[String] = None, timestamp: Long = new java.util.Date().getTime)
+case class Event(name: String, payload: Option[String] = None, timestamp: Long = new Date().getTime)
 
 object Event {
   implicit val eventFormat = Json.format[Event]
