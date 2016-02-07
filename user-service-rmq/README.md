@@ -10,7 +10,6 @@ You will need to install Typesafe Activator. Start the application locally with
 
 ```
 activator run
-
 ```
 
 Start RabbitMQ
