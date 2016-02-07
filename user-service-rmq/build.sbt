@@ -1,4 +1,4 @@
-name := """user-service"""
+name := """user-service-rmq"""
 
 version := "1.0-SNAPSHOT"
 
